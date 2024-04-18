@@ -4,7 +4,7 @@ import Container from "@/components/common/container";
 
 export function TopBenefits() {
   return (
-    <Container className="flex flex-col gap-14">
+    <Container className="flex flex-col gap-20">
       <Video />
       <Benefits />
     </Container>

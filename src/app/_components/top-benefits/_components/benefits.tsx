@@ -23,7 +23,7 @@ const benefits: BenefitData[] = [
   },
   {
     icon: <HeartHandshake size={32} />,
-    title: "Your Growth Partners",
+    title: "Your Growth Partner",
     description:
       "We're the team member you've always wanted — invested in your success, cheering you on, delivering winning moves.",
   },
@@ -31,7 +31,7 @@ const benefits: BenefitData[] = [
 
 export function Benefits() {
   return (
-    <div className="grid grid-cols-3 gap-8">
+    <div className="grid grid-cols-3 gap-10">
       {benefits.map((benefit, index) => (
         <Benefit
           key={benefit.title + "-" + index}
