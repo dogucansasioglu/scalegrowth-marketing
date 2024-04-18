@@ -3,7 +3,7 @@ import Container from "@/components/common/container";
 export default function PainPoints() {
   return (
     <Container>
-      <div className="mx-auto flex max-w-xl flex-col gap-8 text-2xl">
+      <div className="mx-auto flex max-w-3xl flex-col gap-8 text-3xl">
         <div className="font-bold">Dear Business Owner,</div>
         <div>We get it.</div>
         <div>Growing a business is hard. Really hard.</div>

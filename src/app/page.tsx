@@ -1,3 +1,4 @@
+import CtaMid from "@/app/_components/cta-mid";
 import { Hero } from "@/app/_components/hero";
 import PainPoints from "@/app/_components/pain-points";
 import { TopBenefits } from "@/app/_components/top-benefits";
@@ -8,6 +9,7 @@ export default async function Home() {
       <Hero />
       <TopBenefits />
       <PainPoints />
+      <CtaMid />
     </div>
   );
 }
