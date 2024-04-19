@@ -15,7 +15,7 @@ export default function Container({
   return (
     <div
       className={cn(
-        "mx-auto my-10 w-full max-w-6xl px-4",
+        "mx-auto my-10 w-full max-w-7xl px-4",
         isFullWidth && "max-w-none",
         className,
       )}
