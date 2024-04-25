@@ -16,7 +16,7 @@ export function Hero() {
           Presence, Without Long-Term Contracts)
         </div>
         <div className="flex flex-col gap-2">
-          <Button size={"xl"} className="mx-auto w-fit text-4xl">
+          <Button size={"xl"} className="mx-auto w-fit">
             Schedule Your FREE Growth Call
           </Button>
           <div className="text-center">

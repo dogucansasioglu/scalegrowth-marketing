@@ -43,10 +43,10 @@ const problems: Problem[] = [
 
 export function Problems() {
   return (
-    <Container>
-      <Container size="md" className="flex flex-col gap-20">
+    <Container className="mt-0">
+      <Container size="md" className="my-0 flex flex-col gap-20">
         <Header>The Five Problems That Kill Service-Based Businesses</Header>
-        <Container size="sm" className="flex flex-col gap-20">
+        <Container size="sm" className="my-0 flex flex-col gap-20">
           {problems.map((problem, index) => (
             <PCard
               key={problem.title + "-" + index}
