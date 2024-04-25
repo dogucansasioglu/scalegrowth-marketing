@@ -1,4 +1,5 @@
 import { type Step } from "@/app/_components/how-it-works";
+import { GlowingIcon } from "@/components/common/glowing-icon";
 
 export function Step({
   Icon: Icon,
@@ -9,9 +10,9 @@ export function Step({
   return (
     <div>
       <div className="flex flex-col items-center justify-center gap-4">
-        <div className="flex w-fit items-center justify-center rounded-full bg-muted p-3">
+        <GlowingIcon>
           <Icon size={32} />
-        </div>
+        </GlowingIcon>
         <div className="flex flex-col gap-2">
           <h3 className="text-2xl font-bold">
             {number}: {title}

@@ -1,5 +1,6 @@
 import AboutMe from "@/app/_components/about-me";
 import { Benefits } from "@/app/_components/benefits";
+import { Features } from "@/app/_components/features";
 import { Hero } from "@/app/_components/hero";
 import { HowItWorks } from "@/app/_components/how-it-works";
 import { Problems } from "@/app/_components/problems";
@@ -12,6 +13,7 @@ export default async function Home() {
       <AboutMe />
       <Benefits />
       <HowItWorks />
+      <Features />
     </div>
   );
 }

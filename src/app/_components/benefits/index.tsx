@@ -32,7 +32,7 @@ const benefitsData: Benefit[] = [
 
 export function Benefits() {
   return (
-    <Container className="flex flex-col gap-20 text-center">
+    <Container className="flex flex-col gap-20">
       <Header>WARNING! You Will Experience</Header>
       <div className="grid grid-cols-1 items-center justify-center gap-20 lg:grid-cols-3 lg:items-start">
         {benefitsData.map((benefit, index) => (

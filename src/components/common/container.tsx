@@ -5,14 +5,14 @@ interface Props {
   children: React.ReactNode;
   className?: string;
   isFullWidth?: boolean;
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "xl";
 }
 
 export function Container({
   children,
   className,
   isFullWidth = false,
-  size = "lg",
+  size = "xl",
 }: Props) {
   return (
     <div
@@ -20,7 +20,8 @@ export function Container({
         "mx-auto my-10 w-full px-4",
         size === "sm" && "max-w-xl",
         size === "md" && "max-w-2xl",
-        size === "lg" && "max-w-7xl",
+        size === "lg" && "max-w-3xl",
+        size === "xl" && "max-w-7xl",
         isFullWidth && "max-w-none",
         className,
       )}
