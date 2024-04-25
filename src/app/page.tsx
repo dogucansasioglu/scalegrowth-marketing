@@ -1,4 +1,5 @@
 import AboutMe from "@/app/_components/about-me";
+import { Benefits } from "@/app/_components/benefits";
 import { Hero } from "@/app/_components/hero";
 import { Problems } from "@/app/_components/problems";
 
@@ -8,6 +9,7 @@ export default async function Home() {
       <Hero />
       <Problems />
       <AboutMe />
+      <Benefits />
     </div>
   );
 }

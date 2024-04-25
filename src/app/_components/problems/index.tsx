@@ -1,5 +1,6 @@
 import { PCard } from "@/app/_components/problems/_components/p-card";
 import { Container } from "@/components/common/container";
+import { GradientBG } from "@/components/common/gradient-bg";
 import { Header } from "@/components/common/header";
 
 export interface Problem {
@@ -43,21 +44,25 @@ const problems: Problem[] = [
 
 export function Problems() {
   return (
-    <Container className="mt-0">
-      <Container size="md" className="my-0 flex flex-col gap-20">
-        <Header>The Five Problems That Kill Service-Based Businesses</Header>
-        <Container size="sm" className="my-0 flex flex-col gap-20">
-          {problems.map((problem, index) => (
-            <PCard
-              key={problem.title + "-" + index}
-              title={problem.title}
-              description={problem.description}
-              img={problem.img}
-              number={index + 1}
-            />
-          ))}
+    <div className="relative mb-10 pb-10">
+      <GradientBG />
+
+      <Container className="mt-0">
+        <Container size="md" className="my-0 flex flex-col gap-20">
+          <Header>The Five Problems That Kill Service-Based Businesses</Header>
+          <Container size="sm" className="my-0 flex flex-col gap-20">
+            {problems.map((problem, index) => (
+              <PCard
+                key={problem.title + "-" + index}
+                title={problem.title}
+                description={problem.description}
+                img={problem.img}
+                number={index + 1}
+              />
+            ))}
+          </Container>
         </Container>
       </Container>
-    </Container>
+    </div>
   );
 }
