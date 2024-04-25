@@ -1,7 +1,19 @@
 import { Feature } from "@/app/_components/features/_components/feature";
 import { Container } from "@/components/common/container";
 import { Header } from "@/components/common/header";
-import { Calendar, type LucideIcon } from "lucide-react";
+import {
+  Database,
+  FileText,
+  HelpingHand,
+  Layers,
+  Layout,
+  Mail,
+  Shuffle,
+  Star,
+  Target,
+  Unlock,
+  type LucideIcon,
+} from "lucide-react";
 
 export interface Feature {
   Icon: LucideIcon;
@@ -9,66 +21,96 @@ export interface Feature {
   description: string;
 }
 
+// Offer Creation
+// We develop offers tailored to your audience, enhancing engagement and effectiveness.
+
+// High-Converting Landing Pages
+// Our landing pages are optimized to convert visitors into leads, showcasing your offers effectively.
+
+// Automated Email Flows
+// We set up email sequences to nurture leads consistently, pushing them closer to a purchase.
+
+// Targeted Meta Ads
+// We use targeted ads to increase your online visibility and attract quality traffic to your site.
+
+// CRM & Analytics
+// Our CRM systems track and utilize every interaction, providing insights to refine marketing strategies.
+
+// Automations
+// Automations streamline repetitive tasks, freeing up time for you to focus on growth.
+
+// A/B Testing
+// We test and optimize continuously, ensuring your campaigns achieve the highest ROI.
+
+// Daily Live Support
+// Get 24/7 support to ensure you have the help you need, whenever you need it.
+
+// Transparent Reports
+// Receive clear, concise reports that show your progress and guide future decisions.
+
+// No Long-Term Contracts
+// Flexible contracts allow you to adjust your marketing efforts as your business needs change.
+
 const featuresData: Feature[] = [
   {
-    Icon: Calendar,
+    Icon: Star,
     title: "Offer Creation",
     description:
-      "Craft offers that are compelling and effective. We'll work with you to create offers that are tailored to your business and your customers.",
+      "We develop offers tailored to your audience, enhancing engagement and effectiveness.",
   },
   {
-    Icon: Calendar,
-    title: "High-Converting Landing Pages",
+    Icon: Layout,
+    title: "Landing Pages",
     description:
-      "Highlight your offers, optimized to convert visitors into leads. We'll create landing pages that are designed to capture and convert visitors into leads.",
+      "Our landing pages are optimized to convert visitors into leads, showcasing your offers effectively.",
   },
   {
-    Icon: Calendar,
+    Icon: Mail,
     title: "Automated Email Flows",
     description:
-      "Nurture your leads with the right message at the right time. We'll create automated email flows that are designed to nurture leads and convert them into customers.",
+      "We set up email sequences to nurture leads consistently, pushing them closer to a purchase.",
   },
   {
-    Icon: Calendar,
+    Icon: Target,
     title: "Targeted Meta Ads",
     description:
-      "Boost your online presence, draw the right traffic to your page. We'll create targeted meta ads that are designed to attract and convert visitors into leads.",
+      "We use targeted ads to increase your online visibility and attract quality traffic to your site.",
   },
   {
-    Icon: Calendar,
+    Icon: Database,
     title: "CRM & Analytics",
     description:
-      "Ensure every customer interaction is tracked and effectively utilized. We'll create a CRM and analytics system that is designed to track and analyze customer interactions and provide insights for better decision-making.",
+      "Our CRM systems track and utilize every interaction, providing insights to refine marketing strategies.",
   },
   {
-    Icon: Calendar,
+    Icon: Layers,
     title: "Automations",
     description:
-      "Free up your time using automations that take care of repetitive tasks. We'll create automations to ensure that your business runs smoothly and efficiently.",
+      "Automations streamline repetitive tasks, freeing up time for you to focus on growth.",
   },
   {
-    Icon: Calendar,
+    Icon: Shuffle,
     title: "A/B Testing",
     description:
-      "Lots of testing and strategies based on your data to ensure the best ROI. We'll create A/B testing to ensure that your offers are effective and that your landing pages are optimized for conversion.",
+      "We test and optimize continuously, ensuring your campaigns achieve the highest ROI.",
   },
   {
-    Icon: Calendar,
+    Icon: HelpingHand,
     title: "Daily Live Support",
     description:
-      "Always have the help you need when you need it. We'll provide 24/7 support to ensure that you have the resources you need to succeed.",
+      "Get 9-5 support to ensure you have the help you need, whenever you need it.",
   },
   {
-    Icon: Calendar,
-    title: "Easy To Understand, Transparent Reports",
+    Icon: FileText,
+    title: "Transparent Reports",
     description:
-      "Reports that shows what you actually want. We'll provide transparent reports that are easy to understand and use to make informed decisions.",
+      "Receive clear, concise reports that show your progress and guide future decisions.",
   },
   {
-    Icon: Calendar,
+    Icon: Unlock,
     title: "No Long-Term Contracts",
     description:
-      "Scale flexibly without long-term commitments. We'll provide flexible pricing options that allow you to scale your business as needed.",
+      "Flexible contracts allow you to adjust your marketing efforts as your business needs change.",
   },
 ];
 
