@@ -1,6 +1,7 @@
 import AboutMe from "@/app/_components/about-me";
 import { Benefits } from "@/app/_components/benefits";
 import { Hero } from "@/app/_components/hero";
+import { HowItWorks } from "@/app/_components/how-it-works";
 import { Problems } from "@/app/_components/problems";
 
 export default async function Home() {
@@ -10,7 +11,7 @@ export default async function Home() {
       <Problems />
       <AboutMe />
       <Benefits />
-      {/* <Testimonials /> */}
+      <HowItWorks />
     </div>
   );
 }
