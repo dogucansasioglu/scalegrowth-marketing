@@ -10,6 +10,7 @@ export default async function Home() {
       <Problems />
       <AboutMe />
       <Benefits />
+      {/* <Testimonials /> */}
     </div>
   );
 }
