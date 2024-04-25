@@ -32,23 +32,18 @@ const benefitsData: Benefit[] = [
 
 export function Benefits() {
   return (
-    <div className="bg-secondary py-20 text-center text-secondary-foreground">
-      <Container className="flex flex-col gap-20">
-        <Header>
-          <span className="text-primary">WARNING!</span> <br />
-          You Will Experience
-        </Header>
-        <div className="grid grid-cols-1 items-start justify-center gap-20 lg:grid-cols-3">
-          {benefitsData.map((benefit, index) => (
-            <Benefit
-              key={benefit.title + "-" + index}
-              Icon={benefit.Icon}
-              title={benefit.title}
-              description={benefit.description}
-            />
-          ))}
-        </div>
-      </Container>
-    </div>
+    <Container className="flex flex-col gap-20 text-center">
+      <Header>WARNING! You Will Experience</Header>
+      <div className="grid grid-cols-1 items-center justify-center gap-20 lg:grid-cols-3 lg:items-start">
+        {benefitsData.map((benefit, index) => (
+          <Benefit
+            key={benefit.title + "-" + index}
+            Icon={benefit.Icon}
+            title={benefit.title}
+            description={benefit.description}
+          />
+        ))}
+      </div>
+    </Container>
   );
 }
