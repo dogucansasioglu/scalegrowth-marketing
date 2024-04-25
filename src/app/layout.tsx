@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 
 import { Inter } from "next/font/google";
 
+import { Footer } from "@/components/common/footer";
 import { Nav } from "@/components/common/nav";
 import { TRPCReactProvider } from "@/trpc/react";
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         <TRPCReactProvider>
           <Nav />
           {children}
+          <Footer />
         </TRPCReactProvider>
       </body>
     </html>
