@@ -8,7 +8,7 @@ export function CTA() {
       <Container className="flex flex-col gap-20">
         <Header>Do You Want To Scale Your Business?</Header>
         <Button variant={"accent"} size={"xl"} className="mx-auto w-fit ">
-          Schedule Your FREE Growth Call
+          Yes, Grow My Business
         </Button>
       </Container>
     </div>

@@ -47,20 +47,18 @@ export function Problems() {
     <div className="relative mb-10 pb-10">
       <GradientBG />
 
-      <Container className="mt-0">
-        <Container size="md" className="my-0 flex flex-col gap-20">
-          <Header>The Five Problems That Kill Service-Based Businesses</Header>
-          <Container size="sm" className="my-0 flex flex-col gap-20">
-            {problems.map((problem, index) => (
-              <PCard
-                key={problem.title + "-" + index}
-                title={problem.title}
-                description={problem.description}
-                img={problem.img}
-                number={index + 1}
-              />
-            ))}
-          </Container>
+      <Container size="md" className="my-0 flex flex-col gap-20">
+        <Header>The Five Problems That Kill Service-Based Businesses</Header>
+        <Container size="sm" className="my-0 flex flex-col gap-20">
+          {problems.map((problem, index) => (
+            <PCard
+              key={problem.title + "-" + index}
+              title={problem.title}
+              description={problem.description}
+              img={problem.img}
+              number={index + 1}
+            />
+          ))}
         </Container>
       </Container>
     </div>

@@ -9,7 +9,7 @@ interface Props {
 export function Header({ children, TagName = "h2", className }: Props) {
   return (
     <TagName
-      className={cn("text-center text-4xl  font-bold md:text-5xl", className)}
+      className={cn("text-center text-4xl font-bold md:text-5xl", className)}
     >
       {children}
     </TagName>
