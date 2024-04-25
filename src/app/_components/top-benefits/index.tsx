@@ -1,6 +1,6 @@
 import { Benefits } from "@/app/_components/top-benefits/_components/benefits";
 import { Video } from "@/app/_components/top-benefits/_components/video";
-import Container from "@/components/common/container";
+import { Container } from "@/components/common/container";
 
 export function TopBenefits() {
   return (

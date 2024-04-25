@@ -1,15 +1,14 @@
-import CtaMid from "@/app/_components/cta-mid";
 import { Hero } from "@/app/_components/hero";
-import PainPoints from "@/app/_components/pain-points";
-import { TopBenefits } from "@/app/_components/top-benefits";
+import { Problems } from "@/app/_components/problems";
 
 export default async function Home() {
   return (
     <div className="flex flex-col gap-32">
       <Hero />
-      <TopBenefits />
-      <PainPoints />
-      <CtaMid />
+      <Problems />
+      {/* <PainPoints /> */}
+      {/* <CtaMid /> */}
+      {/* <Process /> */}
     </div>
   );
 }

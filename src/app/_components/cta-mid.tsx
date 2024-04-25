@@ -1,11 +1,11 @@
-import Container from "@/components/common/container";
+import { Container } from "@/components/common/container";
 import { Button } from "@/components/ui/button";
 
 export default function CtaMid() {
   return (
     <Container
       isFullWidth
-      className="bg-secondary text-secondary-foreground h-[90vh] text-center"
+      className="h-[90vh] bg-secondary text-center text-secondary-foreground"
     >
       <div className="mx-auto flex h-full max-w-3xl flex-col items-center justify-center gap-8">
         <div className="mb-2 text-8xl font-bold">

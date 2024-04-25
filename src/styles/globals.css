@@ -74,3 +74,23 @@
     @apply bg-background text-foreground;
   }
 }
+
+.fancy-underline {
+  position: relative;
+}
+
+.fancy-underline::before {
+  content: "";
+  position: absolute;
+  /* top: 100%; */
+  bottom: 5%;
+  width: 100%;
+  left: 0;
+  height: 0.5em;
+  background: linear-gradient(
+    90.25deg,
+    hsl(var(--primary)) 27.69%,
+    rgba(26, 39, 201, 0) 125.86%
+  );
+  z-index: -1;
+}
