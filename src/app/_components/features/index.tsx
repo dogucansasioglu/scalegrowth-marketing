@@ -21,36 +21,6 @@ export interface Feature {
   description: string;
 }
 
-// Offer Creation
-// We develop offers tailored to your audience, enhancing engagement and effectiveness.
-
-// High-Converting Landing Pages
-// Our landing pages are optimized to convert visitors into leads, showcasing your offers effectively.
-
-// Automated Email Flows
-// We set up email sequences to nurture leads consistently, pushing them closer to a purchase.
-
-// Targeted Meta Ads
-// We use targeted ads to increase your online visibility and attract quality traffic to your site.
-
-// CRM & Analytics
-// Our CRM systems track and utilize every interaction, providing insights to refine marketing strategies.
-
-// Automations
-// Automations streamline repetitive tasks, freeing up time for you to focus on growth.
-
-// A/B Testing
-// We test and optimize continuously, ensuring your campaigns achieve the highest ROI.
-
-// Daily Live Support
-// Get 24/7 support to ensure you have the help you need, whenever you need it.
-
-// Transparent Reports
-// Receive clear, concise reports that show your progress and guide future decisions.
-
-// No Long-Term Contracts
-// Flexible contracts allow you to adjust your marketing efforts as your business needs change.
-
 const featuresData: Feature[] = [
   {
     Icon: Star,
