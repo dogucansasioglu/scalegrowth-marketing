@@ -21,8 +21,8 @@ export default function AboutMe() {
             I figured there had to be an easier way to get marketing that works.
             I believed in a clearer, simpler path to marketing success—one that
             didn&apos;t just add to the confusion or lead nowhere. That&apos;s
-            why I founded ScaleGrowth Marketing. Our mission is to simplify the
-            marketing process for service-based businesses.{" "}
+            why I founded GrowEasy. Our mission is to simplify the marketing
+            process for service-based businesses.{" "}
           </p>
         </div>
         <div className="flex items-center justify-center">

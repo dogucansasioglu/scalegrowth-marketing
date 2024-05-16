@@ -21,7 +21,7 @@ const testimonialsData: Testimonial[] = [
   {
     title: "From No Leads to Can't Keep Up In 90 Days",
     description:
-      "We weren’t getting any business and we didn't know why. Partnering with ScaleGrowth Marketing changed everything. Now, we're overwhelmed with leads—it's a great problem to have!",
+      "We weren’t getting any business and we didn't know why. Partnering with GrowEasy changed everything. Now, we're overwhelmed with leads—it's a great problem to have!",
   },
 ];
 
