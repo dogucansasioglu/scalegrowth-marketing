@@ -1,11 +1,10 @@
 import { Container } from "@/components/common/container";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 
 export function Hero() {
   return (
-    <Container className="mt-[15vh] flex min-h-[90vh] items-center justify-center">
+    <Container className="mt-0 flex min-h-[90vh] items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-8 text-center">
         <div className="rounded-full border bg-[#ebecff] p-4 text-center text-lg font-bold shadow-lg">
           120-Day DWY Program
@@ -14,7 +13,7 @@ export function Hero() {
           Build a Lead Gen Funnel <br className="hidden md:block" />
           That Converts Cold Traffic
         </h1>
-        <div className="mt-3 max-w-4xl text-2xl">
+        <div className="mt-3 max-w-4xl text-balance text-xl">
           We help coaches, consultants, and agency owners drive traffic, capture
           leads, and convert them into clients at scale—without needing any
           prior online presence, marketing experience, or complicated tech
@@ -26,18 +25,20 @@ export function Hero() {
             target="_blank"
           >
             <Button size={"xl"} className="mx-auto w-fit">
-              Try It For FREE
+              Start Your 14-Day Free Trial
             </Button>
           </Link>
-          <div className="text-center italic">with a 14-day free trial.</div>
+          <div className="text-center italic">
+            Get 5 clients in 120 days or your money back.
+          </div>
         </div>
-        <Image
+        {/* <Image
           src="/groweasy-funnel.jpg"
           alt="GrowEasy Funnel"
           width={1200}
           height={800}
           className="mt-10 rounded-md"
-        />
+        /> */}
       </div>
     </Container>
   );
