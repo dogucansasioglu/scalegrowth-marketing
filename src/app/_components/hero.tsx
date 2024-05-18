@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <Container className="mt-[15vh] flex min-h-[90vh] items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-8 text-center">
-        <div className="rounded-full border bg-[#ebecff] p-4 text-center text-xl font-bold shadow-lg">
+        <div className="rounded-full border bg-[#ebecff] p-4 text-center text-lg font-bold shadow-lg">
           120-Day DWY Program
         </div>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
@@ -29,7 +29,7 @@ export function Hero() {
               Try It For FREE
             </Button>
           </Link>
-          <div className="text-center italic">with a 14-day free trial</div>
+          <div className="text-center italic">with a 14-day free trial.</div>
         </div>
         <Image
           src="/groweasy-funnel.jpg"
