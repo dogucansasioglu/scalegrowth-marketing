@@ -1,6 +1,7 @@
 import { Container } from "@/components/common/container";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -20,9 +21,14 @@ export function Hero() {
           just 1 hour a day.
         </div>
         <div className="flex flex-col gap-2">
-          <Button size={"xl"} className="mx-auto w-fit">
-            Try It For FREE
-          </Button>
+          <Link
+            href={"https://calendly.com/sasiogludogucan/30min"}
+            target="_blank"
+          >
+            <Button size={"xl"} className="mx-auto w-fit">
+              Try It For FREE
+            </Button>
+          </Link>
           <div className="text-center italic">with a 14-day free trial</div>
         </div>
         <Image
