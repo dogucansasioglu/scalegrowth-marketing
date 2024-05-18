@@ -34,7 +34,7 @@ export function Hero() {
           For AGENCY OWNERS, COACHES & CONSULTANTS
         </div>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
-          Download All Of Our Trainings
+          Download All Of Our Trainings For Free
         </h1>
         <div className="mt-3 max-w-4xl text-balance text-xl">
           Get instant access to our trainings covering paid ads, content, cold
