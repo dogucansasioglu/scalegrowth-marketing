@@ -29,11 +29,11 @@ export function Footer() {
   return (
     <Container className="mt-40 flex flex-col gap-20 pb-10">
       <div className="h-0.5 w-full bg-secondary"></div>
-      <div className="flex justify-between">
+      <div className="flex flex-col items-center justify-center gap-10 sm:flex-row sm:items-start sm:justify-between">
         <div>
           <Logo />
         </div>
-        <div className="flex gap-10">
+        <div className="flex flex-col gap-10 sm:flex-row">
           {socials.map((social, index) => (
             <SocialLink
               key={social.href + "-" + index}
