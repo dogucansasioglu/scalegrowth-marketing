@@ -16,9 +16,9 @@ export function Hero() {
         </h1>
         <div className="mt-3 max-w-4xl text-2xl">
           We help coaches, consultants, and agency owners drive traffic, capture
-          leads, and convert them at scale—without needing any prior online
-          presence, marketing experience, or complicated tech setups. All in
-          just 1 hour a day.
+          leads, and convert them into clients at scale—without needing any
+          prior online presence, marketing experience, or complicated tech
+          setups. All in just 1 hour a day.
         </div>
         <div className="flex flex-col gap-2">
           <Link
