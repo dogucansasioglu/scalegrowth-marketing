@@ -1,12 +1,12 @@
 import "@/styles/globals.css";
 
-import { Inter } from "next/font/google";
+import { Lexend } from "next/font/google";
 
 import { Footer } from "@/components/common/footer";
 import { Nav } from "@/components/common/nav";
 import { TRPCReactProvider } from "@/trpc/react";
 
-const inter = Inter({
+const inter = Lexend({
   subsets: ["latin"],
   variable: "--font-sans",
 });
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>
+      <body className={`${inter.className}`}>
         <TRPCReactProvider>
           <Nav />
           {children}

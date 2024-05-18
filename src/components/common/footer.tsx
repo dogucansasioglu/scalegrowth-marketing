@@ -4,20 +4,20 @@ import {
   SocialLink,
   type SocialLinkType,
 } from "@/components/common/social-link";
-import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 const socials: SocialLinkType[] = [
+  {
+    Icon: Youtube,
+    href: "https://www.youtube.com/@DogucanSasioglu",
+  },
   {
     Icon: Twitter,
     href: "https://twitter.com/dogucansasioglu",
   },
   {
     Icon: Instagram,
-    href: "https://www.instagram.com/nrkoz/",
-  },
-  {
-    Icon: Github,
-    href: "https://github.com/dogucansasioglu",
+    href: "https://www.instagram.com/dogucansasioglu/",
   },
   {
     Icon: Linkedin,

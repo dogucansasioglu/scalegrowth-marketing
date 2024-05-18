@@ -1,28 +1,37 @@
 import { Container } from "@/components/common/container";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function Hero() {
   return (
-    <Container className="my-0 flex min-h-[90vh] items-center justify-center">
-      <div className="flex flex-col items-center justify-center gap-10 text-center">
-        <h1 className="text-3xl font-bold sm:text-4xl md:text-4xl lg:max-w-6xl lg:text-5xl xl:max-w-7xl xl:text-6xl">
-          Close 2-10 New Clients In The Next 90 Days{" "}
-          <br className="hidden md:block" />
-          With Your B2B Business
-          <br className="hidden md:block" /> GUARANTEED (Or You Don&apos;t Pay)
+    <Container className="mt-[15vh] flex min-h-[90vh] items-center justify-center">
+      <div className="flex flex-col items-center justify-center gap-8 text-center">
+        <div className="rounded-full border bg-[#ebecff] p-4 text-center text-xl font-bold shadow-lg">
+          120-Day DWY Program
+        </div>
+        <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
+          Build a Lead Gen Funnel <br className="hidden md:block" />
+          That Converts Cold Traffic
         </h1>
-        <div className="text-2xl">
-          (Without Losing Money on Ads, Needing Any Prior Online Presence, and
-          Long-Term Contracts)
+        <div className="mt-3 max-w-4xl text-2xl">
+          We help coaches, consultants, and agency owners drive traffic, capture
+          leads, and convert them at scale—without needing any prior online
+          presence, marketing experience, or complicated tech setups. All in
+          just 1 hour a day.
         </div>
         <div className="flex flex-col gap-2">
           <Button size={"xl"} className="mx-auto w-fit">
-            Schedule Your FREE Growth Call
+            Try It For FREE
           </Button>
-          <div className="text-center">
-            Secure Your Spot Now—Limited Spots Available!
-          </div>
+          <div className="text-center italic">with a 14-day free trial</div>
         </div>
+        <Image
+          src="/groweasy-funnel.jpg"
+          alt="GrowEasy Funnel"
+          width={1200}
+          height={800}
+          className="mt-10 rounded-md"
+        />
       </div>
     </Container>
   );

@@ -11,7 +11,7 @@ export function SocialLink({ Icon, href }: SocialLinkType) {
     <Link
       href={href}
       target="_blank"
-      className="p-2 transition-colors duration-300 ease-in-out hover:text-accent"
+      className="p-2 transition duration-300 ease-in-out hover:scale-110 hover:text-primary"
     >
       <Icon size={24} />
     </Link>
