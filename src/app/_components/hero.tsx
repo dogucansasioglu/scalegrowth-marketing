@@ -22,7 +22,7 @@ export function Hero() {
         </div>
         <div className="flex flex-col gap-2">
           <Link
-            href={"https://calendly.com/sasiogludogucan/30min"}
+            href={"https://calendly.com/sasiogludogucan/discovery"}
             target="_blank"
           >
             <Button size={"xl"} className="mx-auto w-fit">
