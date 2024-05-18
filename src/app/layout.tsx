@@ -12,9 +12,10 @@ const inter = Lexend({
 });
 
 export const metadata = {
-  title: "GrowEasy",
-  description: "Grow your business with ease",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  title: "GrowEasy - Client Acquisition Made EASY",
+  description:
+    "We help coaches, consultants, and agency owners drive traffic, capture leads, and convert them at scale—without needing any prior online presence, marketing experience, or complicated tech setups. All injust 1 hour a day.",
+  icons: [{ rel: "icon", url: "/groweasy-logo.png" }],
 };
 
 export default function RootLayout({
