@@ -14,7 +14,7 @@ const inter = Lexend({
 export const metadata = {
   title: "GrowEasy - Client Acquisition Made EASY",
   description:
-    "We help coaches, consultants, and agency owners drive traffic, capture leads, and convert them at scale—without needing any prior online presence, marketing experience, or complicated tech setups. All injust 1 hour a day.",
+    "Drive traffic, capture leads, and convert them into high-paying clients with our 120-Day DWY Program. No prior online presence, marketing experience, or tech skills needed. All in just 1 hour a day.",
   icons: [{ rel: "icon", url: "/groweasy-logo.png" }],
 };
 
