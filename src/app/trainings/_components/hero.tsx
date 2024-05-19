@@ -4,6 +4,7 @@ import { Container } from "@/components/common/container";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useRouter } from "next/navigation";
 import { useForm, type SubmitHandler } from "react-hook-form";
 import { z } from "zod";
 
@@ -24,8 +25,12 @@ export function Hero() {
   } = useForm<Inputs>({
     resolver: zodResolver(schema),
   });
+  const router = useRouter();
 
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
+    console.log(data);
+    router.push("/thank-you-trainings");
+  };
 
   return (
     <Container className="mt-0 flex min-h-[80vh] items-center justify-center">
