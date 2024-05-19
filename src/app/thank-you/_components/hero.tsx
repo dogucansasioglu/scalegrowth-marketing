@@ -15,8 +15,8 @@ export function Hero() {
         </h1>
         <div className="mt-3 max-w-4xl text-balance text-xl">
           Thanks for scheduling a call! While you wait, join our free Skool
-          community. Connect with like-minded pros, access exclusive trainings,
-          and get expert support.
+          community. Connect with agency owners, coaches & consultants and
+          access exclusive trainings.
         </div>
         <div className="flex flex-col gap-2">
           <Link
