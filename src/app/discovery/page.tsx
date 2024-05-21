@@ -6,7 +6,7 @@ import Script from "next/script";
 
 export default function Discovery() {
   return (
-    <Container className="flex flex-col">
+    <Container className="flex flex-col gap-10">
       <Header>Schedule A Call With Us</Header>
       <div className="h-full w-full">
         <iframe
