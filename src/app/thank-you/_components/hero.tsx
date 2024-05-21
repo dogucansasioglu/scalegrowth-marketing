@@ -19,10 +19,7 @@ export function Hero() {
           access exclusive trainings.
         </div>
         <div className="flex flex-col gap-2">
-          <Link
-            href={"https://calendly.com/sasiogludogucan/discovery"}
-            target="_blank"
-          >
+          <Link href={"https://www.skool.com/groweasy-7508"} target="_blank">
             <Button size={"xl"} className="mx-auto w-fit">
               Join the Free Skool Community Now
             </Button>

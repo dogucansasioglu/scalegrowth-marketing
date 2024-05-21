@@ -19,10 +19,7 @@ export function Hero() {
           <b>All in just 1 hour a day.</b>
         </div>
         <div className="flex flex-col gap-2">
-          <Link
-            href={"https://calendly.com/sasiogludogucan/discovery"}
-            target="_blank"
-          >
+          <Link href={"/discovery"}>
             <Button size={"xl"} className="mx-auto w-fit">
               Start Your 14-Day Free Trial Now
             </Button>
